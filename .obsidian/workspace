@@ -1,0 +1,106 @@
+{
+  "main": {
+    "id": "eab8cbe3c00fe5ad",
+    "type": "split",
+    "children": [
+      {
+        "id": "ed90349f8bfbfb4b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "postgrel/DB_transactions.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d5c8147199435ce",
+    "type": "split",
+    "children": [
+      {
+        "id": "6307201be82ac7fb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c4009b62e19ce1d",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "20932e9e9a105033",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 186,
+    "collapsed": true
+  },
+  "right": {
+    "id": "950b95a81014555d",
+    "type": "split",
+    "children": [
+      {
+        "id": "5ec6543f18d535cf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7f0b7e9fbed9760",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "postgrel/DB_transactions.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bf14b48622149981",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "ed90349f8bfbfb4b",
+  "lastOpenFiles": [
+    "postgrel/DB_transactions.md",
+    "().md",
+    "README.md",
+    "postgrel/connecting_to_postgrel.md"
+  ]
+}
