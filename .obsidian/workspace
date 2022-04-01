@@ -89,12 +89,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 100
   },
   "active": "ed90349f8bfbfb4b",
   "lastOpenFiles": [
