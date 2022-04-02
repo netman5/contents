@@ -1,4 +1,6 @@
 # Transaction In Relational Database Management Systems
+![[DBMS-Transaction-Processing.jpg.jpeg]]
+Image courtesy of educba
 
 ## What is Database Transaction? 
 
@@ -24,12 +26,7 @@ The above acronym was formed purposely for conformity and maintaining of data & 
 Let us look into the meaning of each letter of the ACID
 
 ### Atomicity
-This guarantee that either all the transactions succeed or none of it does. What this is saying in essence is that if a part of the transaction fails the whole transactions fails. You don't get some of part of transaction succeed and others parts fail. 
-
-Imagine you are trying to withdraw money from the ATM, you get a debit alert but the machine did not dispense
-
-Atomicity cares about either success or nothing.
-
+This guarantee that either all the transactions succeed or none of it does. What this is saying in essence is that if a part of the transaction fails the whole transactions fails. You don't get some of part of transaction succeed and others parts fail. Atomicity cares about either success or nothing.
 
 ### Consistency
 A transaction can only change the state of the database from a valid one to another valid state maintaining the predefined rules which includes Constraint, Cascade etc. that has been applied on the database. Consistency guarantees that all data will be consistent.
@@ -44,6 +41,12 @@ Let us quickly see a transaction in effect, I'll be using PostgreSQL to demonstr
 
 Since I started with an example of bank transaction, we might as well just stick to it for the practical example.
 
+We will:
+- START TRANSACTION
+- Debit account 2
+- Credit account 1
+- COMMIT TRANSACTION
+
 First lets create the account table
 
 ```
@@ -57,28 +60,90 @@ CREATE TABLE accounts (
 ```
 
 
-We can start a transaction by inserting data into our account table using `BEGIN TRANSACTION;` or `BEGIN WORK` or just `BEGIN` keyword
+We can start a transaction by inserting data into our account table using `BEGIN TRANSACTION;` or `BEGIN WORK` or just `BEGIN` keyword and commit the transaction by using either `COMMIT TRANSACTION;` or `COMMIT WORK;` or my favorite `COMMIT` command.
+
+Lets insert into table the internet most famous duo
+
 ```
-BEGIN TRANSACTION;
+-- start a transaction
+BEGIN;
+
+-- insert a new row into the accounts table
+INSERT INTO accounts(name,balance)
+VALUES('Jane Doe',10000);
+
+INSERT INTO accounts(name,balance)
+VALUES('John Doe',30000);
+
+-- commit the change (or roll it back later)
+COMMIT;
 ```
 
-
-
-then insert into table the internet most famous duo
+Let check the accounts table for the new entries `SELECT * FROM accounts;`
+![[account_details.png]]
+Then let's transfer $5000 from John's account to Jane but we will be performing the transactions using two sessions
 
 ```
 BEGIN;
 
-INSERT INTO accounts(name,balance)
-VALUES('Jane Doe',5000);
-
-INSERT INTO accounts(name,balance)
-VALUES('John Doe',10000);
+UPDATE accounts 
+SET balance = balance - 5000
+WHERE id = 2;
 ```
 
-
-Let's commit the transaction by using either `COMMIT TRANSACTION;`, or `COMMIT WORK;` or my favorite `COMMIT` command.
+Let's check both account balance
 
 ```
+SELECT 
+    id,
+    name,
+    balance
+FROM 
+    accounts;
+```
+
+As we can see from the screenshot below that John account has been debited 
+![[balance.png]]
+
+Let's credit lucky Jane and commit
+```
+UPDATE accounts
+SET balance = balance + 5000
+WHERE id = 1; 
+```
+
+```
+COMMIT
+```
+
+![[balance_after.png]]
+Putting it all together
+```
+-- start a transaction
+BEGIN;
+
+-- deduct 5000 from account 2
+UPDATE accounts 
+SET balance = balance - 5000
+WHERE id = 2;
+
+-- add 5000 to account 1
+UPDATE accounts
+SET balance = balance + 5000
+WHERE id = 1; 
+
+-- select the data from accounts
+SELECT id, name, balance
+FROM accounts;
+
+-- commit the transaction
 COMMIT;
 ```
+
+A transaction can be rollback using `ROLLBACK`.
+
+
+And there you have it, I hope I have succeeded in confusing you the more (Joking). If you like my  content you can connect with me here on [LinkedIn](https://www.linkedin.com/in/ola-ishola/) and [Twitter](https://twitter.com/Orlaish)
+
+
+Thanks for reading.
