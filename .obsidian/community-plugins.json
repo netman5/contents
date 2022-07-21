@@ -1,4 +1,8 @@
 [
   "calendar",
-  "code-block-copy"
+  "code-block-copy",
+  "obsidian-git",
+  "obsidian-excalidraw-plugin",
+  "obsidian-kanban",
+  "obsidian-dictionary-plugin"
 ]

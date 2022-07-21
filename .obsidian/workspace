@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "aa7687f166448f39",
+        "id": "c477798ba4e1d171",
         "type": "leaf",
         "state": {
           "type": "empty",
@@ -70,13 +70,13 @@
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": true,
-                "unlinkedCollapsed": true
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           },
           {
-            "id": "bf14b48622149981",
+            "id": "ae8f448c6ecea383",
             "type": "leaf",
             "state": {
               "type": "calendar",
@@ -87,19 +87,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 100,
+    "width": 259.5,
     "collapsed": true
   },
-  "active": "aa7687f166448f39",
+  "active": "c477798ba4e1d171",
   "lastOpenFiles": [
-    "week ending Apr2.md.md",
-    "2022-04-02.md",
-    "().md",
-    "postgrel/DB_transactions.md",
-    "postgrel/connecting_to_postgrel.md",
-    "images/accounts_details.png.md",
-    "postgrel/images/account_details.png",
-    "\"./accounts_details.png\".md",
-    "README.md"
+    "Job Search/Offer.md",
+    "Networking/Follow Up Emails/Example 2.md",
+    "Networking/Follow Up Emails/Example 1.md",
+    "Networking/Example of Personal Opinions questions to ask.md",
+    "Networking/Example of Skills questions to ask.md",
+    "Networking/Example of Field questions to ask.md",
+    "Networking/Examples of Career path questions.md",
+    "Untitled.md",
+    "Networking/Thank you Note.md",
+    "Networking/Info Interview Exp2.md"
   ]
 }

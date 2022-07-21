@@ -4,7 +4,7 @@ After successfully installing PostgreSQL on your local machine, the next this to
 
 This however is not available on elementary OS but theirs no cause for alarm we can connect using the default terminal that come preinstalled with the OS. You can follow this steps to connecting on Debian/Ubuntu platforms and other Linux environments.
 
-In this tutorial I'll be showing how to connect to PostgreSQL database server from terminal using following simple steps.
+In this tutorial I'll be showing how to connect to [[PostgreSQL]] database server from terminal using following simple steps.
 
 Without wasting much of our time, let's dive into it.
 
