@@ -4,11 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "c477798ba4e1d171",
+        "id": "315bf129d52de9f5",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Posts/Posts Topics.md",
+            "mode": "source",
+            "source": false
+          }
         }
       }
     ],
@@ -65,6 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Posts/Posts Topics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,17 +95,17 @@
     "width": 259.5,
     "collapsed": true
   },
-  "active": "c477798ba4e1d171",
+  "active": "315bf129d52de9f5",
   "lastOpenFiles": [
-    "Job Search/Offer.md",
-    "Networking/Follow Up Emails/Example 2.md",
-    "Networking/Follow Up Emails/Example 1.md",
-    "Networking/Example of Personal Opinions questions to ask.md",
-    "Networking/Example of Skills questions to ask.md",
-    "Networking/Example of Field questions to ask.md",
-    "Networking/Examples of Career path questions.md",
-    "Untitled.md",
-    "Networking/Thank you Note.md",
-    "Networking/Info Interview Exp2.md"
+    "daily/Friday, July 22, 2022.md",
+    "Social Media/Teach.md",
+    "Social Media/Daily posts.md",
+    "Personal/Todos.md",
+    "daily/2022-07-22.md",
+    "Personal/Personalize.md",
+    "daily/Thursday, July 21, 2022.md",
+    "Posts/No code.md",
+    "Posts/Posts Topics.md",
+    "Posts/How I feel about changing Job.md"
   ]
 }

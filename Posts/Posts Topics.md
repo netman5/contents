@@ -8,3 +8,4 @@
 - Common Developer struggles
 - Programming Concepts beginners struggles with
 - Productivity tips for Developers
+- Bookmarking sections in react using Elements with smooth scroll behavior
