@@ -10,3 +10,4 @@ My Daily to-dos
 - Post an article every Friday
 - Learn obsidian dataview
 - scan resume using 3 react job posting
+- Prepare for interview by reading react, redux related questions

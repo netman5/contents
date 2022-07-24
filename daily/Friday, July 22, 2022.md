@@ -21,3 +21,6 @@
 	- He mentioned the importance of understanding the market demands in one current location as crucial to getting a job
 	- He shared his experience of using react router to persist and route data to other page using useLocation hook
 	- Remind him to refer me if opportunity surface
+- Reach out to Idris
+	- Asked him about the job referral
+	- He submitted my resume to another lady
