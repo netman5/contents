@@ -1,0 +1,32 @@
+# Thursday, 04 August, 2022
+- Re-teach student git because he couldn't wrap his head around it
+	- Revisit git from ground up with hands on practice
+	- Make him practice all the commands by using his project while I explained what each commands does
+	- Teach git branch
+		- As a way of adding features or isolating a bug in a confined environment
+		- Gives us room to work on multiple part of the app concurrently with breaking the main branch
+		- Git branch commands
+			- `git branch` to check the available branches
+			- `git branch branchname` for creating a new branch
+			- `git checkout branchname` to check to desire branch
+			- `git checkout -b branchname` a shortcut of creating a branch and checking out to the same branch
+		- Student practice creating multiple git branches
+	- Dived into Git Merge
+		- Merge allow us to join two branches
+		- To merge a branch, change to the base and merge the desire branch
+		- `git merge featurebranch` to be merge
+		- Student merged some of the created branches to main
+	- Deleting of old branches
+		- `git branch -d branchname`
+- Went out to get light
+- Called peter and we discussed
+	- About whether he has bio data on his resume
+	- How much I charge student for programming class and duration
+	- Shared info on his project to add default user for trustee with features to send email, and text msg to trustee without the trustee login in to the app
+	- Sent bio data to EJAY recruiter and thank both for being of help
+	- Attend day 2 of WOSE 
+	- Discussed African grocery business with Mrs Adekola & other things
+	- Pastor said we should engage God's Mercy in prayer all through this month for things we have been asking for just because of sins satan is using to cover us before that is making God to look away from answering our prayers.
+	- Did GitHub coding challenge the cash-register where I checked the cash in the drawer against the change the user will recieve
+	- Couldn't finished it but consulted an article on medium and will try understand the solution further tomorrow
+

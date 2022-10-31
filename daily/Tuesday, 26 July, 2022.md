@@ -1,0 +1,21 @@
+# Tuesday, 26 July, 2022
+- Teach student more advanced CSS including
+	- how to comment in stylesheet
+	- colors (background-color, text color & border color)
+	- How to set background image using both the individual properties and the shorthand
+	- Using & adding borders using the width, style & color
+	- How to add margin to html elements
+		- Margin add space to an elements outside of the border
+	- Padding to add space to an elements within the border
+	- How to control the width & height of an element by setting the value of the width
+	- Using of max-width to control the size of an element
+	- [[The Box Model]]
+		- The box model consist of the margin, border, padding and the content
+		- When a width is set, it is always for the content and not for the total width
+		- To get the total width of an element, the summation of
+			- width
+			- left & right padding
+			- left & right border
+			- left & right margin
+		- To get the total height of an element, is the summation of 
+		- height + top & bottom padding + top & bottom border + top & bottom margin

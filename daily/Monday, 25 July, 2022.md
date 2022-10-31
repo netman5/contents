@@ -1,0 +1,27 @@
+# Monday, 25 July, 2022.
+
+- Teach student CSS basics on
+	- CSS selectors
+		- Selectors is a way to find, pick or select the desire html tags that need to be style
+		- tags or element, Id, class, grouping
+		- CSS rules has a declaration within a block of curly braces
+		- each rules contains a property and value separated with a semicolon
+	- Ways to add CSS to html
+		- Inline
+		- Internal
+		- External
+	- CSS specificity
+		- The order in which CSS declaration is applied
+		- Inline has priority of 1, which means has highest priority above the other two
+		- Depending on which of the other that two come first is what rules that would be applied
+	- Went to church for a prayer
+	- Went to market with Mrs Adekola to get Topaz suit for acting Pst Adeboye
+	- Took a bit nap
+	- Called Peter for help with Interview
+	- Called Bright and share with him that
+	- Had peer-to-peer interview session with Peter
+	- Sent a follow-up email for a Rails dev job applied for last week
+- Job Updates
+	- Booked a first level interview with FinCode company
+	- Received a follow up message from a job applied to and asked to resubmit resume
+	- A talent sourcer for borderless reach out & request me to register on their platform.

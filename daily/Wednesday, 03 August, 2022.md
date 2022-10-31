@@ -1,0 +1,62 @@
+# Wednesday, 03 August, 2022
+
+- Teach Student Git and Basic explanation of GitHub
+	- Git as a local repository
+	- Help with versioning of code
+	- Allow developer to collaborate
+	- Tracking of code
+	- Tracking of who made changes
+- What does Git do?
+
+	-   Manage projects with **Repositories**
+	-   **Clone** a project to work on a local copy
+	-   Control and track changes with **Staging** and **Committing**
+	-   **Branch** and **Merge** to allow for work on different part and versions of a project
+	-   **Pull** the latest version of the project to a local copy
+	-   **Push** local updates to the main project
+- Working with Git
+
+	-   Initialize Git on a folder, making it a **Repository**
+	-   Git now creates a hidden folder to keep track of changes in that folder
+	-   When a file is changed, added or deleted, it is considered **modified**
+	-   You select the modified files you want to **Stage**
+	-   The **Staged** files are **Committed**, which prompts Git to store a **permanent** snapshot of the files
+	-   Git allows you to see the full history of every commit.
+	-   You can revert back to any previous commit.
+	-   Git does not store a separate copy of every file in every commit, but keeps track of changes made in each commit!
+- Getting started
+	- Installed git for student
+	- check git version `git --version`
+	- configure initial git environment for student with ffg
+		- `git config --global user.name "John Doe"`
+		- `git config --global user.email "jondoe@mail.com"`
+	- Create new folder and initialize git
+	- Create new files
+	- introduce student to `git status` and file states
+		- Tracked - files that Git knows about and are added to the repository
+		- Untracked - files that are in your working directory, but not added to the repository
+	- Staged file using `git add filename`
+		- Used the shorthand of adding multiple files
+			- `git add --all`
+			- `git add .`
+			- `git add -A` 
+	- Commit files with commit message
+		- Explained the -m means message
+		- `git commit -m "Initial commit"`
+	- Explained committing without stage first by including -a
+		- `git commit -a -m 'commit without staging' `
+		- Skipping the stage step can sometimes make you include unwanted changes and not recommended.
+	- Git status shorthand `git status --short`
+	- Git log to check the logs of commits
+- Little intro to command line syntax
+- Gave student first project and its due on Friday
+
+## Personal
+- Did laundry 
+- Attend day one of Week of Spiritual emphasis
+- Applied to 3 jobs using crafted CV
+- Got message from Ejay about adding phone number to my resume
+- Change portfolio navigation links, headers to gold color
+- Refactored about me text color to light-grey
+- Pushed a commit to GitHub
+- Write daily note

@@ -1,0 +1,29 @@
+# Wednesday, July 27, 2022
+
+- Teach the continuation of basic [[CSS]] to advance CSS
+	- background properties such as adding 
+		- add bg image
+		- color
+		- position
+		- repeat
+	- A revisit of inline & block level elements
+		- Learnt setting li to inline can be used for navigation links
+	- Display properties of block, inline & none
+	- Box shadow 
+	- A refresher on box model
+	- Floats
+- First time hearing about **Emotional Hygiene**
+	- Taking care of your emotional injury
+	- You can't treat a psychological wound if you don't know you are injured
+	- Don't allow your mind to convince you after failure that you can't succeed.
+	- Rejections are extremely painful
+	- Be mindful of what you tell yourself after a rejection
+	- When you get a rejection, the first thing to do is to revive yourself
+	- When you get a rejection, Treat yourself with compassion as from a truly good friend
+	- Avoid ruminating about negative thought or incidents
+	- Battle the urge to ruminate on negative thing that happen by forcing yourself to think about something else. Distraction.
+- Attend Midweek service
+- Write my daily activities
+- Reach out to Grace at BorderlessHR for connect as discussion on LinkedIn.
+- Applied to jobs on LinkedIn
+- Add MongoDB creds to .env.local in nextApp 

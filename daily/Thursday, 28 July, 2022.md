@@ -1,0 +1,42 @@
+# Thursday, 28 July, 2022
+
+- Continue to teach student more advance CSS
+	- CSS display and Flexbox layout module
+		- Flex container (parent container)
+			- Takes the display of `display: flex`
+			- Set the flow of the item `flex-direction: colum | row`
+			- Justifying of flex items content `justify-content: center`
+			- Ordering of flex items, flex shorthands for flex-grow, flex-shrink & flex-basis
+		- Flex items
+			- align-self to position item from lists of flex items
+			- Justify-items for justifying the position of items
+		- Responsiveness with flex
+			- The container can be set to the following
+			 - display of flex
+			 - flex-wrap of wrap
+			- The Items with 
+				- flex of 50% on desktop screen
+			- Media Query of max-width `800px`
+				- with flex items flex set to 100%
+				- E.g `flex: 100%`
+			- Another way is to use 
+				- `flex-direction: row` on a desktop screen
+				- And on media query
+					- The container set back to `flex-direction: column`
+					- Flex items width set to 100% `width: 100%`
+- PVC
+	- Transferred my PVC voting right to oluyole
+	- Attend prayer session
+	- Discussed my revelation with pastor
+- Take home & coding challenge
+	- Make attempt on this week coding challenge but don't finish it
+	- Microverse introduced take-home projects
+		- Choose to make a starter template for rails apis
+		- Starting from next week will be building a take-home project a coding challenge
+		- Created a templates for rails APIs service using PostgreSQL, RSpec for testing with shoulda and factorybots
+- Continued with NextJS tutorial
+	- Connect to MongoDB online and create doc and collection for the meetups project
+	- Create a POST request for passing the added meetup to Atlas, and connect to db from getStaticPaths to get dynamic id for dynamic page generation
+	- Connect to db getStatictProps and pass the items from the db to the props and use the fetch on the pages
+- Networking
+	- Sent connection to Grace from Borderless

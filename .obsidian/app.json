@@ -5,5 +5,6 @@
   "showLineNumber": true,
   "spellcheck": true,
   "promptDelete": false,
-  "fileSortOrder": "alphabetical"
+  "fileSortOrder": "alphabetical",
+  "alwaysUpdateLinks": true
 }

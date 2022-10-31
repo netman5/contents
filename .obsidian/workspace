@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "c972bef5b0456c8a",
+        "id": "c50d9a78336007f6",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "SDE/NextJS.md",
+            "file": "Posts/Rejections.md",
             "mode": "source",
             "source": false
           }
@@ -53,7 +53,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 186
+    "width": 221.5
   },
   "right": {
     "id": "950b95a81014555d",
@@ -69,14 +69,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "SDE/NextJS.md",
+                "file": "Posts/Rejections.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
               }
             }
           },
@@ -92,20 +92,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 259.5,
-    "collapsed": true
+    "width": 189.5
   },
-  "active": "c972bef5b0456c8a",
+  "active": "c50d9a78336007f6",
   "lastOpenFiles": [
-    "daily/Sunday, July 24, 2022.md",
-    "daily/2022-07-24.md",
-    "SDE/NextJS.md",
-    "Job Search/Job Search Prep.md",
-    "Social Media/Daily posts.md",
+    "daily/2022-10-14.md",
+    "Social Media/Teach.md",
+    "Posts/Posts Topics.md",
+    "Posts/No code.md",
+    "Posts/How I feel about changing Job.md",
+    "Posts/DB_transactions.md",
+    "Posts/css box model.md",
+    "daily/2022-10-07.md",
     "Personal/Todos.md",
-    "daily/Saturday, July 23, 2022.md",
-    "daily/Friday, July 22, 2022.md",
-    "daily/Thursday, July 21, 2022.md",
-    "Posts/Posts Topics.md"
+    "Personal/Personalize.md"
   ]
 }

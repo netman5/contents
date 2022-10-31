@@ -9,4 +9,4 @@
 	- personalize projects
 	- Use [jobscan](https://www.jobscan.co/) to scan resume for ATS rating
 	- Use [wosber](https://www.wozber.com/en-us) to build a personalized resume
-	- Cover letter should be conscise and mostly contains elevator pitch and a little of problems you sense you can help with
+	- Cover letter should be concise and mostly contains elevator pitch and a little of problems you sense you can help with
